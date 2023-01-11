@@ -1,4 +1,4 @@
-node_modules
+node_modules/
+dist/
 *-lock.json
-dist
-.vscode
+notes.txt

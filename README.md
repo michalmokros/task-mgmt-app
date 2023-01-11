@@ -1,1 +1,66 @@
-# Task Test Application
+# Task Management Application
+
+Simple sample NodeJS + TypeScript + PostgreSQL Project for demonstration purposes.
+
+## About
+
+### Description
+
+REST API NodeJS Application written in TypeScript with PostgreSQL Database for task management. Each task is assigned to a Project and can have up to 100 Tags. The Tasks can be filtered by their Tags, Projects and all other attributes that they contain. Request to this Application need to have a Authorization Header in form of Bearer Token.
+
+### Endpoints
+
+API Documentation was done through OpenAPI, to view it go to [Editor Swagger](https://editor.swagger.io/) and input file [openapi.yaml](./openapi.yaml) to render the endpoints.\
+Don't forget to use the `Authorization` header with value `Bearer eyJhbGciOiJIUzI1NiJ9.aGVsbG93b3JsZA.vyzLvRb1Wd_T-1Zbh9E9GyqflKi5RFfr2-vinM70Ff0` when testing the endpoints.\
+You can use available pregenerated [**Postman Collection**](./postman_collection.json) with already filled authorization, URLs, parameters, queries and bodies.
+
+## Configuration
+
+### Requirements
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [NodeJS](https://nodejs.org/en/download/)
+- [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+### Setup
+
+1. Install the dependencies\
+`npm install`
+2. Build the Javascript\
+`npm run build`
+3. Create and start the Docker Container with PostgreSQL database\
+`npm run up`
+4. Start the NodeJS Application\
+`npm start`
+
+### Cleanup
+
+1. Stop the NodeJS Application
+2. Stop and remove the Docker Container with PostgreSQL database\
+`npm run down`
+
+### Development
+
+- Start the Application through Typescript files\
+`npm run dev`
+- Start the Application with reload on changes in code\
+`npm run watch`
+- Run the linters on the code and fix errors and warnings\
+`npm run lint`
+- Remove all generated files\
+`npm run clean`
+
+## Continuation
+
+Possible further improvements that can be done to this Application.
+
+### Functionality
+
+- Tests
+- Static Code Analysis + Coverage Report
+- Run NodeJS Application in Docker Container
+
+### Logic
+
+- Ensure that Project can have some limited number of Tasks
+- Pump up Authentication/Authorization
