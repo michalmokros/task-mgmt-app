@@ -2,7 +2,19 @@
 	"name": "task-mgmt-app",
 	"version": "1.0.0",
 	"description": "REST API application for the management of tasks.",
-	"main": "index.js",
+	"keywords": [
+		"nodejs",
+		"typescript",
+		"express",
+		"postgresql",
+		"docker"
+	],
+	"homepage": "https://github.com/michalmokros/task-mgmt-app#readme",
+	"bugs": {
+		"url": "https://github.com/michalmokros/task-mgmt-app/issues",
+		"email": "mokros.michal14@gmail.com"
+	},
+	"main": "app.js",
 	"scripts": {
 		"build": "rm -rf dist && tsc",
 		"start": "node ./dist/app.js",
@@ -17,10 +29,18 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "github.com/michalmokros/task-mgmt-app"
+		"url": "https://github.com/michalmokros/task-mgmt-app.git"
 	},
-	"author": "michalmokros",
-	"license": "ISC",
+	"engines": {
+		"node": ">=18.12.1",
+		"npm": ">=8.19.2"
+	},
+	"author": {
+		"name": "Michal Mokros",
+		"email": "mokros.michal14@gmail.com",
+		"url": "https://www.linkedin.com/in/michal-mokros-912685171/"
+	},
+	"license": "Apache-2.0",
 	"devDependencies": {
 		"@types/express": "^4.17.14",
 		"@types/jsonwebtoken": "^9.0.0",
