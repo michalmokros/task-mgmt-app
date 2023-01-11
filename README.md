@@ -64,5 +64,5 @@ Possible further improvements that can be done to this Application.
 ### Logic
 
 - Ensure that Project can have some limited number of Tasks
-- Use more advanced pagination of results for requests that list entities
+- Use more advanced pagination(start, cursor) of results for requests that list entities
 - Pump up Authentication/Authorization
