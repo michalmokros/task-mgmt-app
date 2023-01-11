@@ -59,6 +59,7 @@ Possible further improvements that can be done to this Application.
 - Tests
 - Static Code Analysis + Coverage Report
 - Run NodeJS Application in Docker Container
+- Create Entity Relationship Diagram for the database
 
 ### Logic
 
