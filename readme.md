@@ -6,13 +6,13 @@ Simple sample NodeJS + TypeScript + PostgreSQL Project for demonstration purpose
 
 ### Description
 
-REST API NodeJS Application written in TypeScript with PostgreSQL Database for task management. Each task is assigned to a Project and can have up to 100 Tags. The Tasks can be filtered by their Tags, Projects and all other attributes that they contain. Request to this Application need to have a Authorization Header in form of Bearer Token.
+This is a *REST API NodeJS* Application written in *TypeScript* with *PostgreSQL* Database for task management. Each task is assigned to a Project and can have up to 100 Tags. The Tasks can be filtered by their Tags, Projects and all other attributes that they contain. Requests to this Application need to have an `Authorization` header in the form of a *Bearer Token*.
 
-### Endpoints
+### How To Use
 
-API Documentation was done through OpenAPI, to view it go to [Editor Swagger](https://editor.swagger.io/) and input file [openapi.yaml](./openapi.yaml) to render the endpoints.\
-Don't forget to use the `Authorization` header with value `Bearer eyJhbGciOiJIUzI1NiJ9.aGVsbG93b3JsZA.vyzLvRb1Wd_T-1Zbh9E9GyqflKi5RFfr2-vinM70Ff0` when testing the endpoints.\
-You can use available pregenerated [**Postman Collection**](./postman_collection.json) with already filled authorization, URLs, parameters, queries and bodies.
+Available endpoints are described through API Documentation which was done in [OpenAPI](https://www.openapis.org/). To view this documentation go to [Editor Swagger](https://editor.swagger.io/) and input file [openapi.yaml](./openapi.yaml) to render the endpoints. Don't forget to use the `Authorization` header with value `Bearer eyJhbGciOiJIUzI1NiJ9.aGVsbG93b3JsZA.vyzLvRb1Wd_T-1Zbh9E9GyqflKi5RFfr2-vinM70Ff0` when testing the endpoints.\
+
+For **experiments** you can use available pregenerated [**Postman Collection**](./postman_collection.json) with already filled authorization, URLs, parameters, queries and bodies.
 
 ## Configuration
 
