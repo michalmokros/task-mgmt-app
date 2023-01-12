@@ -52,17 +52,17 @@ You can use available pregenerated [**Postman Collection**](./postman_collection
 
 ## Continuation
 
-Possible further improvements that can be done to this Application.
+Possible further improvements that should be done to this Application. Consider this as a TODOs list.
 
 ### Functionality
 
-- Tests
-- Static Code Analysis + Coverage Report
-- Run NodeJS Application in Docker Container
-- Create Entity Relationship Diagram for the database
+- [ ] Tests
+- [ ] Static Code Analysis + Coverage Report
+- [ ] Run NodeJS Application in Docker Container
+- [ ] Create Entity Relationship Diagram for the database
 
 ### Logic
 
-- Ensure that Project can have some limited number of Tasks
-- Use more advanced pagination(start, cursor) of results for requests that list entities
-- Pump up Authentication/Authorization
+- [ ] Ensure that Project can have some limited number of Tasks
+- [ ] Use more advanced pagination(start, cursor) of results for requests that list entities
+- [ ] Pump up Authentication/Authorization
