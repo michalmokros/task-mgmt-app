@@ -1,12 +1,12 @@
 # Task Management Application
 
-Simple sample NodeJS + TypeScript + PostgreSQL REST API Project for demonstration purposes.
+Simple sample Node.JS + TypeScript + PostgreSQL REST API Project for demonstration purposes.
 
 ## About
 
 ### Description
 
-This is a *REST API NodeJS* Application written in *TypeScript* with *PostgreSQL* Database for task management. Each task is assigned to a Project and can have up to 100 Tags. The Tasks can be filtered by their Tags, Projects and all other attributes that they contain. Requests to this Application need to have an `Authorization` header in the form of a *Bearer Token*.
+This is a *REST API Node.JS* Application written in *TypeScript* with *PostgreSQL* Database for task management. Each task is assigned to a Project and can have up to 100 Tags. The Tasks can be filtered by their Tags, Projects and all other attributes that they contain. Requests to this Application need to have an `Authorization` header in the form of a *Bearer Token*.
 
 ### How To Use
 
@@ -19,7 +19,7 @@ For **experiments** you can use available pregenerated [**Postman Collection**](
 ### Requirements
 
 - [Docker](https://docs.docker.com/get-docker/)
-- [NodeJS](https://nodejs.org/en/download/)
+- [Node.JS](https://nodejs.org/en/download/)
 - [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ### Setup
@@ -30,12 +30,12 @@ For **experiments** you can use available pregenerated [**Postman Collection**](
 `npm run build`
 3. Create and start the Docker Container with PostgreSQL database\
 `npm run up`
-4. Start the NodeJS Application\
+4. Start the Node.JS Application\
 `npm start`
 
 ### Cleanup
 
-1. Stop the NodeJS Application
+1. Stop the Node.JS Application
 2. Stop and remove the Docker Container with PostgreSQL database\
 `npm run down`
 
@@ -58,7 +58,7 @@ Possible further improvements that should be done to this Application. Consider 
 
 - [ ] Tests
 - [ ] Static Code Analysis + Coverage Report
-- [ ] Run NodeJS Application in Docker Container
+- [ ] Run Node.JS Application in Docker Container
 - [ ] Create Entity Relationship Diagram for the database
 - [ ] Use Advanced Database Manipulation (Migrations and Volume Storage)
 
