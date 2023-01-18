@@ -1,6 +1,6 @@
 # Task Management Application
 
-Simple sample NodeJS + TypeScript + PostgreSQL Project for demonstration purposes.
+Simple sample NodeJS + TypeScript + PostgreSQL REST API Project for demonstration purposes.
 
 ## About
 
@@ -60,9 +60,11 @@ Possible further improvements that should be done to this Application. Consider 
 - [ ] Static Code Analysis + Coverage Report
 - [ ] Run NodeJS Application in Docker Container
 - [ ] Create Entity Relationship Diagram for the database
+- [ ] Use Advanced Database Manipulation (Migrations and Volume Storage)
 
 ### Logic
 
 - [ ] Ensure that Project can have some limited number of Tasks
 - [ ] Use more advanced pagination(start, cursor) of results for requests that list entities
-- [ ] Pump up Authentication/Authorization
+- [ ] Pump up Authentication/Authorization (Sign Up/In, Reset Password)
+- [ ] Security Measures - Rate Limiting, CSRF, HSTS, ...
